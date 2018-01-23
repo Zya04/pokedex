@@ -1,0 +1,37 @@
+form, .pokedex{
+	position: relative; 
+	text-align: center;
+}
+
+.left{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: #C00D0D;
+    height: 500px;
+    width: 400px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.middle{
+	position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 750px;
+    width: 50px;
+    height: 495px;
+    background: linear-gradient(to right, #600707, #C00D0D, #600707);
+    border-bottom: solid #600707 2px;
+    border-top: solid #600707 2px;
+}
+.right{
+	position: absolute;
+    margin-top: 250px;
+    margin-left: 800px;
+    background-color: #C00D0D;
+    height: 350px;
+    width: 400px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
