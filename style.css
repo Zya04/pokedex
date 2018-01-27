@@ -12,6 +12,7 @@ form, .pokedex{
     width: 400px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    box-shadow: -10px 8px 1px 3px #600707;
 }
 .middle{
 	position: absolute;
@@ -24,14 +25,309 @@ form, .pokedex{
     border-bottom: solid #600707 2px;
     border-top: solid #600707 2px;
 }
+
+.left1{
+	position: absolute;
+    z-index: 3;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: #8B0000;
+    width: 230px;
+    height: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 30px;
+    box-shadow: -10px 8px 1px 3px #600707;
+}
+.left2{
+	position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 350px;
+    height: 75px;
+    background-color: #8B0000;
+    border-top-left-radius: 30px;
+}
+.buttonBlue{
+	position: absolute;
+    z-index: 4;
+    margin-top: 115px;
+    margin-left: 420px;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(#A9E9F7, #1DC6EC);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5px;
+    box-shadow: 0px 0px 6px 4px #600707;
+}
+.buttonRed{
+	position:absolute;
+	z-index: 4;
+    width: 20px;
+    height: 20px;
+    margin-top: 110px;
+    margin-left: 510px;
+    background: radial-gradient(#FB7575, #C00D0D);
+    border-radius: 50px;
+    box-shadow: 0px 0px 6px 2px #600707;
+}
+.buttonYellow{
+	position: absolute;
+	z-index: 4;
+    width: 20px;
+    height: 20px;
+    margin-top: 110px;
+    margin-left: 550px;
+    background: radial-gradient(#FBFB8A, #ff0);
+    background-color: #A0F2FA;
+    border-radius: 50px;
+    box-shadow: 0px 0px 6px 2px #600707;
+}
+.buttonGreen{
+	position: absolute;
+	z-index: 4;
+    width: 20px;
+    height: 20px;
+    margin-top: 110px;
+    margin-left: 590px;
+    background: radial-gradient(#ACFB76, #30DA0C);
+    border-radius: 50px;
+    box-shadow: 0px 0px 6px 2px #600707;
+}
+.buttonBlueBottom{
+	background: linear-gradient(#2D77F9, #0530E5);
+    position: absolute;
+    z-index: 4;
+    margin-top: 510px;
+    margin-left: 425px;
+    border-radius: 100px;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0px 1px 0px 1px #031b81;
+}
+.buttonGreenBottom{
+	background: linear-gradient(#30DA0C, #137604);
+    position: absolute;
+    z-index: 4;
+    margin-top: 530px; 
+    margin-left: 500px;
+    border-radius: 100px;
+    height: 12px;
+    width: 50px;
+    box-shadow: -1px 1px 0px 1px #072c01;
+}
+.buttonYellowBottom{
+	background: linear-gradient(#FF9B5B, #F66C1F);
+    position: absolute;
+    z-index: 4;
+    margin-top: 530px;
+    margin-left: 570px;
+    border-radius: 100px;
+    height: 12px;
+    width: 50px;
+    box-shadow: -1px 1px 0px 1px #5f2404;
+}
+.cross{
+    position: absolute;
+    z-index: 4;
+    height: 90px;
+    width: 90px;
+    margin-top: 530px;
+    margin-left: 650px;
+}
+.midCross{
+    position: absolute;
+    z-index: 4;
+    background-color: #222;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    box-shadow: -3px 2px #111;
+}
+.midCircle{
+	position: absolute;
+    margin: 5px auto auto 3px;
+    width: 22px;
+    height: 22px;
+    border-radius: 30px;
+    background: radial-gradient(#111, #222);
+}
+.topCross{
+	position: absolute;
+    background-color: #222;
+    margin: -30px auto auto 20px;
+    width: 30px;
+    height: 30px;
+    box-shadow: -3px 2px #111;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.topCircle{
+	position: absolute;
+    margin: -20px auto auto 25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #111 transparent;
+}
+.rightCross{
+	position: absolute;
+    background-color: #222;
+    margin: 0px auto auto 50px;
+    width: 30px;
+    height: 30px;
+    box-shadow: -3px 2px #111;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.rightCircle{
+    position: absolute;
+    margin: 6px auto auto 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #111;
+}
+.botCross{
+	position: absolute;
+    z-index: 5;
+    background-color: #222;
+    margin: 30px auto auto 20px;
+    width: 30px;
+    height: 30px;
+    box-shadow: -3px 2px #111;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.botCircle{
+	position: absolute;
+    margin: 14px auto auto 4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #111 transparent transparent transparent;
+}
+.leftCross{
+	position: absolute;
+    z-index: 5;
+    background-color: #222;
+    margin: 0px auto auto -10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: -3px 2px #111;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.leftCircle{
+    position: absolute;
+    margin: 6px auto auto 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #111 transparent transparent;
+}
+.screen{
+	position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    margin-top: 275px;
+    margin-left: 445px; 
+    background-color: #fff;
+    width: 255px;
+    height: 140px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #494949;
+}
+.borderScreen{
+    position: absolute;
+    z-index: 4;
+    margin-top: 250px;
+    margin-left: 425px;
+    background-color: #B0B0B0;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+}
+.button{
+    position: absolute;
+    z-index: 4;
+    margin: 17px auto auto 17px;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(#A9E9F7, #1DC6EC);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5px;
+    box-shadow: 0px 0px 6px 4px #600707;
+}
 .right{
 	position: absolute;
-    margin-top: 250px;
+    margin-top: 225px;
     margin-left: 800px;
     background-color: #C00D0D;
-    height: 350px;
+    height: 375px;
     width: 400px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    box-shadow: -10px 8px 1px 3px #600707;
 }
-
+.topRight{
+	position: absolute;
+    z-index: 2;
+    margin: -50px auto auto 0px;
+    background-color: #C00D0D;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 120px;
+}
+.topRight1{
+	position: absolute;
+    z-index: 2;
+    margin: -80px auto auto 135px;
+    background-color: #fff;
+    width: 265px;
+    height: 100px;
+    border-bottom-left-radius: 100px;
+}
+.infoScreen{	
+    position: absolute;
+    z-index: 2;
+    margin: 60px auto auto 50px;
+    border-radius: 10px;
+    height: 120px;
+    width: 290px;
+    box-shadow: 0 0 20px #137604 inset, 0px 0px 5px 1px #600707;
+    background-color: #30DA0C;
+    background: linear-gradient(#ACFB76, #30DA0C);
+}
+.blueButtonRight{
+	position: absolute;
+	background: linear-gradient(#2D77F9, #0530E5);
+    z-index: 5;
+    margin-top: 225px;
+    margin-left: 25px;
+    height: 35px;
+    width: 350px;
+    border-radius: 4px;
+    box-shadow: -1px 1px 0px 2px #032b70;
+}
+.blueButtonRight1{
+	position: absolute;
+	background: linear-gradient(#2D77F9, #0530E5);
+    z-index: 5;
+    margin-top: 275px;
+    margin-left: 25px;
+    height: 35px;
+    width: 350px;
+    border-radius: 4px;
+    box-shadow: -1px 1px 0px 2px #032b70;
+}
