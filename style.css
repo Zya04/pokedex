@@ -1,8 +1,7 @@
-form, .pokedex{
+form, .pokedex, .error{
 	position: relative; 
 	text-align: center;
 }
-
 .left{
     position: absolute;
     margin-top: 100px;
@@ -295,7 +294,7 @@ form, .pokedex{
     margin: -80px auto auto 135px;
     background-color: #fff;
     width: 265px;
-    height: 100px;
+    height: 75px;
     border-bottom-left-radius: 100px;
 }
 .infoScreen{	
@@ -313,8 +312,8 @@ form, .pokedex{
 	position: absolute;
 	background: linear-gradient(#2D77F9, #0530E5);
     z-index: 5;
-    margin-top: 225px;
-    margin-left: 25px;
+    margin-top: 150px;
+    margin-left: -20px;
     height: 35px;
     width: 350px;
     border-radius: 4px;
@@ -324,8 +323,8 @@ form, .pokedex{
 	position: absolute;
 	background: linear-gradient(#2D77F9, #0530E5);
     z-index: 5;
-    margin-top: 275px;
-    margin-left: 25px;
+    margin-top: 200px;
+    margin-left: -20px;
     height: 35px;
     width: 350px;
     border-radius: 4px;
