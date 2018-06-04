@@ -330,3 +330,8 @@ form, .pokedex, .error{
     border-radius: 4px;
     box-shadow: -1px 1px 0px 2px #032b70;
 }
+.frameScreen{
+    z-index: 6;
+    width: 230px;
+    height: 120px;
+}

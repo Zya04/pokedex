@@ -10,7 +10,7 @@ $(function () {
     $('form[name="form"]').submit(function(){
         var pokemons = localStorage.getItem('pokemons');
         var pokemon = JSON.parse(pokemons);
-        var inputName = $('NamePokemon').val();
+        var inputName = $('.namePokemon').val();
         var name = inputName.substr(1);
         var firstChar = inputName.charAt(0).toUpperCase();
         var pokename = firstChar + name;
@@ -20,7 +20,7 @@ $(function () {
     });
 });
 function searchPokemon(lowerPokename, pokemon, pokename){
-    var errorBlock = $('error');
+    var errorBlock = $('error'); 
     for (var i in pokemon) {
         var name = pokemon[i].name;
         var type = pokemon[i].type;
@@ -44,10 +44,10 @@ function searchPokemon(lowerPokename, pokemon, pokename){
     }
 }
 function showPokemon(name, type){
-    var Frame = $('screen');
-    var pokemonName = $('pokemonName');
-    var pokemonType = $('pokemonType');
+    var Frame = $('.frameScreen');
+    var pokemonName = $('.pokemonName');
+    var pokemonType = $('.pokemonType');
     Frame.attr('src', 'https://img.pokemondb.net/artwork/' + name.toLowerCase() + '.jpg');
     pokemonName.text('Name : ' + name);
-    pokemonType.text('Type : ' + type);
-}
+    pokemonType.text('Type : ' + type); 
+} 
